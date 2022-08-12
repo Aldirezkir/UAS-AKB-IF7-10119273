@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    10119273-->
+<!--    ALDI REZEKI RAMDANI-->
+<!--    IF7-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="NotesFragment"
+    android:paddingBottom="10dp"
+    android:id="@+id/fmnotes"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_notes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="317dp"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="97dp"
+        android:baselineAlignBottom="true"
+        android:clickable="true"
+        android:contentDescription="bebas"
+        android:src="@drawable/ic_baseline_add_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="581dp" />
+
+</RelativeLayout>

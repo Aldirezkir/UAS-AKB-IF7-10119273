@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587368248016",
+    "project_id": "daybook-user",
+    "storage_bucket": "daybook-user.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587368248016:android:36aeb36b55176647ae64d5",
+        "android_client_info": {
+          "package_name": "com.example.a10119273_daybook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587368248016-1fm5sc30q8ba77506opbakv3m9obd80f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDreXzPrLhFrSfTAktrPyiBL6eTfhr1YaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587368248016-1fm5sc30q8ba77506opbakv3m9obd80f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
